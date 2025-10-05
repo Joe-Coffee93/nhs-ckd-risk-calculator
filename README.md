@@ -26,7 +26,7 @@ I served as **Project Manager**, focusing on **planning, stakeholder comms, UML,
 
  Quick links:
  - `docs/story_task_cards/` – User Stories and Task Cards (XP planning artefacts)
-- `diagrams/` – Use Case, Activity, Sequence diagrams  
+- `diagrams/Team33_NephroTrack_UML_and_DesignModels.pdf` – Full UML & Design Models (Use Case, Activity, Sequence, User Journeys)
 - `testing/` – Test plan & cases (black-box, acceptance)  
 - `docs/` – Requirements, Security & Privacy (GDPR context), User Manual  
 - `slides/` – Client pitch / demo deck  
@@ -40,8 +40,22 @@ I served as **Project Manager**, focusing on **planning, stakeholder comms, UML,
 - **Stakeholder Comms:** Prepared client-facing slide deck, demo narrative, and Q&A handling.
 - **Risk & Privacy:** Drafted notes on data minimisation, consent, and Article 32 “security by design”.
 
+
 ---
 
+## 🧩 UML & Design Artefacts
+
+A consolidated PDF containing all key UML and design models used for NephroTrack’s planning phase:
+
+- **Use Case Diagram** – interactions between Clinician, Patient, and Admin users  
+- **Activity Diagram** – eGFR calculation flow and conditional logic  
+- **Sequence Diagram** – system interactions and validation for eGFR process  
+- **User Journey Maps** – persona-based flows for Clinician (Jonah), Patient (Rebecca), and Under-18 User (Trent)  
+- **Requirements & SWOT Summary** – supporting functional and non-functional requirements  
+
+📄 [View UML & Design Models (PDF)](diagrams/Team33_NephroTrack_UML_and_DesignModels.pdf)
+
+---
  System Overview (Concept)
 - **Inputs:** Demographics + clinical values (e.g., eGFR, creatinine, ACR, BP)
 - **Logic:** Rule-based risk bands (Low/Moderate/High) + clinician guidance text
