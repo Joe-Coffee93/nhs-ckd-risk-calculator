@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Method-Agile%20XP-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-UML%20%26%20Testing-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Domain-Healthcare%20(NHS)-purple?style=for-the-badge">
+</p>
+
+
+
 # nhs-ckd-risk-calculator
 Agile XP group project (Team 33): CKD risk calculator for NHS-style client. My role: Project Manager (planning, UML, testing. demo).
 
