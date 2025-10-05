@@ -80,6 +80,13 @@ See `testing/`.
 - **Logging** only for clinical audit, not analytics of personal data.
 - outlines in `docs/security_privacy_notes.md` (to be added).
 
+Security Audit
+
+The NephroTrack system underwent a structured security audit to identify and mitigate risks in API communication, database interaction, and user authentication.  
+This included testing for SQL injection, MITM attacks, RBAC implementation, and encryption measures in line with GDPR Article 32.
+
+📄 [View full Security Audit (PDF)](3_Security_Analysis/Team33_NephroTrack_Security_Audit.pdf)
+
 ---
 
  Tools
