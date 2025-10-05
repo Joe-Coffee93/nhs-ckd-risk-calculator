@@ -25,6 +25,7 @@ I served as **Project Manager**, focusing on **planning, stakeholder comms, UML,
 - Produce stakeholder-friendly **documentation** (UML, user manual, risks, privacy notes).
 
  Quick links:
+ - `docs/story_task_cards/` – User Stories and Task Cards (XP planning artefacts)
 - `diagrams/` – Use Case, Activity, Sequence diagrams  
 - `testing/` – Test plan & cases (black-box, acceptance)  
 - `docs/` – Requirements, Security & Privacy (GDPR context), User Manual  
