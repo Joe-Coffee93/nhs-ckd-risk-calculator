@@ -4,109 +4,128 @@
   <img src="https://img.shields.io/badge/Domain-Healthcare%20(NHS)-purple?style=for-the-badge">
 </p>
 
+# NHS CKD Risk Calculator (Agile XP Project)
 
+**Team 33 – "NephroTrack" | Kingston University**  
+Client-style project to design a **Chronic Kidney Disease (CKD) risk calculator** for NHS use.  
+I served as **Project Manager**, focusing on planning, UML and documentation, testing coordination, and stakeholder delivery.
 
-# nhs-ckd-risk-calculator
-Agile XP group project (Team 33): CKD risk calculator for NHS-style client. My role: Project Manager (planning, UML, testing. demo).
-
- NHS CKD Risk Calculator (Agile XP Project)
-
-Team 33 – “NephroTrack” | Kingston University**  
-Client-style project to design a **CKD (Chronic Kidney Disease) risk calculator** for NHS use.  
-I served as **Project Manager**, focusing on **planning, stakeholder comms, UML, testing coordination, and demo delivery**.
-
- Transparency: This is a **group project**. My coding input was limited; this repo showcases **process, artefacts, and delivery** rather than source code.
+> Transparency: This is a group project. My coding input was limited; this repository showcases process, artefacts, and delivery rather than full implementation.
 
 ---
 
-  Goals & Outcome
-- Deliver a **lightweight risk calculator** concept to support early CKD identification.
-- Run a **full XP/Agile lifecycle**: user stories, iterations, testing, and a live demo.
-- Produce stakeholder-friendly **documentation** (UML, user manual, risks, privacy notes).
+## Project Overview
 
- Quick links:
- - `docs/story_task_cards/` – User Stories and Task Cards (XP planning artefacts)
-- `diagrams/Team33_NephroTrack_UML_and_DesignModels.pdf` – Full UML & Design Models (Use Case, Activity, Sequence, User Journeys)
-- `testing/` – Test plan & cases (black-box, acceptance)  
-- `docs/` – Requirements, Security & Privacy (GDPR context), User Manual  
-- `slides/` – Client pitch / demo deck  
+- Designed a lightweight **CKD risk calculator** to support early detection and clinical decision-making.  
+- Followed the **Agile XP lifecycle**, from user stories to iteration planning, testing, and presentation.  
+- Delivered a full set of professional artefacts including UML diagrams, testing plans, and a user manual.
 
 ---
 
- My Role (Project Manager)
-- **Planning & Coordination:** Iteration planning, Jira boards, burndown tracking, daily stand-ups.
-- **UML & Documentation:** Use Case, Activity, and Sequence diagrams; user manual structure.
-- **Testing Lead:** Wrote acceptance criteria, coordinated test execution, logged defects, re-tests.
-- **Stakeholder Comms:** Prepared client-facing slide deck, demo narrative, and Q&A handling.
-- **Risk & Privacy:** Drafted notes on data minimisation, consent, and Article 32 “security by design”.
+## Repository Structure
 
-
----
-
-## 🧩 UML & Design Artefacts
-
-A consolidated PDF containing all key UML and design models used for NephroTrack’s planning phase:
-
-- **Use Case Diagram** – interactions between Clinician, Patient, and Admin users  
-- **Activity Diagram** – eGFR calculation flow and conditional logic  
-- **Sequence Diagram** – system interactions and validation for eGFR process  
-- **User Journey Maps** – persona-based flows for Clinician (Jonah), Patient (Rebecca), and Under-18 User (Trent)  
-- **Requirements & SWOT Summary** – supporting functional and non-functional requirements  
-
-📄 [View UML & Design Models (PDF)](diagrams/Team33_NephroTrack_UML_and_DesignModels.pdf)
-
----
- System Overview (Concept)
-- **Inputs:** Demographics + clinical values (e.g., eGFR, creatinine, ACR, BP)
-- **Logic:** Rule-based risk bands (Low/Moderate/High) + clinician guidance text
-- **Outputs:** Risk category, suggested next steps, printable summary
-
-*(No patient data in this repo. Any screenshots use synthetic values.)*
+| Folder | Description |
+|--------|--------------|
+| `docs/` | Core artefacts – user manual, security audit, iteration reports, and XP story/task cards |
+| `diagrams/` | UML & Design Models (Use Case, Activity, Sequence, User Journeys) |
+| `media/` | Visual assets – logos, colour schemes, and design ideas |
+| `testing/` | Test plans and acceptance results |
+| `slides/` | Client-facing presentation deck |
 
 ---
 
- Testing Approach
-- **Acceptance tests** against user stories (Given/When/Then).
-- **Black-box tests** for input validation & risk banding.
-- **Usability checks** for clinician readability.
+## My Role (Project Manager)
 
-See `testing/`.
-
----
-
- Security & Privacy (High-level)
-- GDPR-aligned **data minimisation**, no unnecessary identifiers.
-- **Role-based access** (clinician vs patient views) in concept.
-- **Logging** only for clinical audit, not analytics of personal data.
-- outlines in `docs/security_privacy_notes.md` (to be added).
-
-Security Audit
-
-The NephroTrack system underwent a structured security audit to identify and mitigate risks in API communication, database interaction, and user authentication.  
-This included testing for SQL injection, MITM attacks, RBAC implementation, and encryption measures in line with GDPR Article 32.
-
-📄 [View full Security Audit (PDF)](3_Security_Analysis/Team33_NephroTrack_Security_Audit.pdf)
+- Led **XP planning** – story cards, iteration management, daily stand-ups.  
+- Produced and maintained **UML diagrams** and documentation.  
+- Oversaw **testing strategy** and acceptance criteria.  
+- Managed client expectations and presentation delivery.  
+- Drafted the **security and privacy framework** aligned with GDPR Article 32.
 
 ---
 
- Tools
-Jira • Lucidchart • UML • MS Office/Google Docs • 
+## UML & Design Models
+
+A consolidated document containing all UML and design artefacts used in development:
+
+- Use Case, Activity, and Sequence diagrams  
+- Persona journeys (Clinician, Patient, Under-18)  
+- UI wireframes and layout concepts  
+- Design rationale and accessibility considerations  
+
+[View UML & Design Models (PDF)](diagrams/Team33_UML_and_DesignModels.pdf)
 
 ---
 
- Artefacts
-- **Diagrams:** `diagrams/` (PNG/PDF)  
-- **Pitch deck:** `slides/NephroTrack_Pitch.pdf`  
-- **User Manual (excerpt):** `docs/User_Manual_Short.pdf`
+## System Overview
+
+- **Inputs:** Demographics and clinical values (age, sex, creatinine, etc.)  
+- **Logic:** Rule-based classification (Low / Moderate / High CKD risk)  
+- **Outputs:** Risk band, suggested next steps, and printable summary  
+
+No patient data is included; all examples use synthetic or dummy values.
 
 ---
 
- Credits
-Team 33 – NephroTrack (XP) — Role: **Project Manager**  
-University project (educational use).
+## Testing Approach
+
+- Acceptance and black-box testing aligned with user stories.  
+- Validation of input handling and risk categorisation logic.  
+- Usability and readability checks for clinician interface.
+
+[View Test Report (PDF)](testing/Team33_Testing.pdf)
 
 ---
 
- Contact
-**Joe Coffee** – London, UK  
-`josephcoffeecyber@gmail.com` • [LinkedIn](https://www.linkedin.com/in/joe-coffee1993/)
+## Security and Privacy
+
+Structured audit identifying and mitigating common risks in healthcare data systems:
+
+- Role-based access control (RBAC)  
+- Encryption of stored and transmitted data (AES-256, TLS)  
+- Password protection and brute-force mitigation  
+- Compliance with NHS Digital and GDPR Article 32
+
+[View Security Audit (PDF)](docs/Team33_Security_Audit.pdf)
+
+---
+
+## Visual Identity
+
+| Design Element | Preview |
+|----------------|----------|
+| **Possible Logos** | ![NephroTrack Logos](media/Team33_Possible_Logos.png) |
+| **Colour Schemes** | ![Colour Schemes](media/Team33_Colour_Schemes.png) |
+
+---
+
+## Tools and Technologies
+
+| Category | Tools |
+|-----------|-------|
+| Project Management | Jira, Google Workspace |
+| Design & UML | Lucidchart, Draw.io |
+| Documentation | Microsoft Word, PowerPoint |
+| Testing | Manual testing (black-box and acceptance) |
+
+---
+
+## Presentation
+
+Final presentation summarising goals, development process, and client recommendations:
+
+[View Presentation Slides](slides/Team33_Presentation.pptx)
+
+---
+
+## Credits
+
+**Team 33 – NephroTrack (XP)**  
+My Role: Project Manager  
+Kingston University – BSc Cyber Security & Computer Forensics
+
+---
+
+## Related Projects
+
+- [Splunk SOC Log Analysis (Portfolio)](https://github.com/Joe-Coffe)
